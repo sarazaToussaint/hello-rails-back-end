@@ -1,1 +1,5 @@
-5.times { |i| Greeting.create(message: "Hello react with rails '#{i + 1}'") }
+Greeting.create(text: 'hello')
+Greeting.create(text: 'hi')
+Greeting.create(text: 'hey')
+Greeting.create(text: 'good morning')
+Greeting.create(text: 'what\'s up')
